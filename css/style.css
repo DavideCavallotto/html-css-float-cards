@@ -1,19 +1,64 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
 
-.student {
-    width: 350px;
-    height: 150px;
-    background-color: black;
-    margin: 3px;
-    float: left;
+header {
+    font-size: 50px;
+    max-width: 1500px;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.container::after {
+.clearfix::after {
     content: '';
     display: table;
     clear: both;
+}
+
+body {
+    padding: 50px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.student {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background-color: #0F0E17;
+    margin: 1px;  
+    float: left; 
+          
+}
+
+img {
+
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+section {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    max-width: 1500px;
+    text-align: center;    
+    margin-bottom: 50px;
+    font-size: 25px;
+    
 }
